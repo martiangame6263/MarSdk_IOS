@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 火星人打包工具  BUGLY
                        DESC
-s.homepage     = "https://github.com/martiangame6263/MarSdk_IOS"# 你git库的地址首页,可以在开元中国创建你的库,不需要使用什么初始化方法,不要勾选 readme
+s.homepage     = "https://github.com/martiangame6263/MarSdk_IOS.git"# 你git库的地址首页,可以在开元中国创建你的库,不需要使用什么初始化方法,不要勾选 readme
 s.license          = { :type => 'MIT', :file => 'LICENSE' } #这里不需要改变,使用默认,文件指向的文件名与工程中文件名要一致。
 s.author           = { '名字' => 'mz@martiangame.cn' } #作者信息：账户名，账户邮箱地址
 s.source           = { :git => 'https://github.com/martiangame6263/MarSdk_IOS.git', :tag => s.version.to_s } # 这里输入邮箱如果你在开元中国申请的 git 账号,那么把你在开元中国创建的项目的 https 网址输入到这里,
